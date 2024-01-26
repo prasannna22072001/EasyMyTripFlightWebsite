@@ -1,0 +1,24 @@
+[
+
+{  
+"FlightNumber": "AI-502",
+"month": "MAR 2024",
+"date": "18",
+"FromCity": "New Delhi(DEL)",
+"ToCity": "(BLR)",
+"ToEnter": "ba",
+"FromEnter": "del"
+},
+
+{  
+"FlightNumber": "I5-584",
+"month": "APR 2024",
+"date": "22",
+"FromCity": "Hyderabad(HYD)",
+"ToCity": "(CCU)",
+"ToEnter": "kol",
+"FromEnter": "hyd"
+}
+
+
+]

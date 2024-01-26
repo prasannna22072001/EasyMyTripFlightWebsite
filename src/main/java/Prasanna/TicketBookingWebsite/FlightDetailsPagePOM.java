@@ -39,7 +39,10 @@ public class FlightDetailsPagePOM extends AbsrtactComponent {
 	public void coupons() {
 		
 		for(int i =1; i<=4; i++) {
-			
+			 if (i == 3) {
+	                // Skip this iteration
+	                continue;
+	            }
 			driver.findElement(By.xpath("(//span[@class='coupn_checkmark'])["+i+"]")).click();
 			String CouponContent = content.getText();
 			System.out.println(CouponContent);

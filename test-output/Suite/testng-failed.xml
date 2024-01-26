@@ -8,8 +8,10 @@
     <classes>
       <class name="Prasanna.TicketBookingWebsite.HomePageTest">
         <methods>
+          <include name="testcase3"/>
           <include name="startDriver"/>
           <include name="testcase2"/>
+          <include name="testcase1"/>
         </methods>
       </class> <!-- Prasanna.TicketBookingWebsite.HomePageTest -->
     </classes>

@@ -6,8 +6,8 @@
       <class name="Prasanna.TicketBookingWebsite.HomePageTest">
         <methods>
           <include name="startDriver"/>
-          <include name="testcase2"/>
-          <include name="testcase1"/>
+          <include name="closeall"/>
+          <include name="testcase1" invocation-numbers="1"/>
         </methods>
       </class> <!-- Prasanna.TicketBookingWebsite.HomePageTest -->
     </classes>

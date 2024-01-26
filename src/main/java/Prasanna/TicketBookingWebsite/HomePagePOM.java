@@ -56,16 +56,16 @@ public class HomePagePOM {
 	@FindBy(xpath="//button[@class='srchBtnSe']")
 	WebElement searchButton;
 	
-	public void travellingDe(String from_city , String to_city) throws InterruptedException {
+	public void travellingDe(String from_city , String to_city, String FromEnter, String ToEnter) throws InterruptedException {
 		from.click();
-		fromText.sendKeys("del");
+		fromText.sendKeys(FromEnter);
 		Thread.sleep(2000);
 
 		WebElement fromcity = fromList.stream().filter(a -> a.getText().equalsIgnoreCase(from_city)).findFirst()
 				.orElse(null);
 		fromcity.click();
 
-		toText.sendKeys("ba");
+		toText.sendKeys(ToEnter);
 		Thread.sleep(2000);
 		WebElement tocity = fromList.stream().filter(w -> w.getText().contains(to_city)).findFirst().orElse(null);
 		tocity.click();
